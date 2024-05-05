@@ -4,37 +4,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SelfCare.in</title>
     <style>
-        .container{
-             display: flex;
-             align-items: center;
-             padding: 0px;
-             white-space: nowrap;
-       }
-       .center{ 
+        .container {
+        display: flex;
+        align-items: center;
+        padding: 0px;
+        justify-content: space-between;
+        white-space: nowrap;
+    }
+    .center {
         text-align: center;
+    }
+    body {
+        background-color: rgb(63, 136, 75);
+    }
+    .content {
+        flex: 1;
+        padding: 20px;
+        border: 0px solid #ffffff;
+    }
+    .content:first-child {
+        flex: 1;
+        text-align: center;
+    }
 
-       }
-       body {
-            background-color: rgb(63, 136, 75); 
-        }
-    
-    </style>
+    .logo-container {
+        margin-right: 20px; /* Adjust this value to move the logo more to the right */
+    }
+</style>
 </head>
 <body>
-    
-           
 
-    <header>
-        <div class="center">
-    <img src="self.png"
-    height="260"
-    width="260"
-    alt="SelfCare Logo">
-    
+<header>
+    <div class="center">
+        <div class="container">
+            <div class="content">
+                <img src="self.png" height="260" width="260" alt="SelfCare Logo">
+                <h1><strong>Natural Health and Nutrition Tips That Are Evidence-Based</strong></h1>
+            </div>
+            <div class="content">
+                <iframe width="450" height="300" src="https://www.youtube.com/embed/QzOrf8Y-qAw?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
         </div>
-
-
-    <h1><strong>Naturae Health and Nutrition Tips That Are Evidence-Based</strong></h1>
+    </div>
     </header>
     <table border="0" cellpadding="20" align="center">
     <div class="container">
